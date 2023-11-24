@@ -35,7 +35,7 @@ with gr.Blocks(
     title="TTS Generation WebUI",
     analytics_enabled=False,  # it broke too many times
 ) as demo:
-    gr.Markdown("# TTS Generation WebUI (Bark, MusicGen + AudioGen, Tortoise, RVC)")
+    gr.Markdown("# Text to Speech with clonned Voice")
     with Joutai.singleton.tabs:
         from src.tortoise.generation_tab_tortoise import generation_tab_tortoise
         from src.settings_tab_gradio import settings_tab_gradio
