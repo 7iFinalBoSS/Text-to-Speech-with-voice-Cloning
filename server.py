@@ -32,7 +32,7 @@ gradio_interface_options = (
 
 with gr.Blocks(
     css=full_css,
-    title="TTS Generation WebUI",
+    title="Voice Cloning",
     analytics_enabled=False,  # it broke too many times
 ) as demo:
     gr.Markdown("# Text to Speech with clonned Voice")
