@@ -478,7 +478,7 @@ def get_long_gen_history_prompt(
 
 
 def generation_tab_bark():
-    with gr.Tab(label="Generation (Bark)", id="generation_bark"):
+    with gr.Tab(label="Text Generation", id="generation_bark"):
         with gr.Row():
             history_setting = gr.Radio(
                 HistorySettings.choices,
